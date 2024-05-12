@@ -1,0 +1,20 @@
+{
+  "name": "electron-playwright-issue",
+  "version": "1.0.0",
+  "description": "A minimal Electron application tested with Playwrght",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "format": "prettier --write .",
+    "test": "mocha --timeout 20000"
+  },
+  "repository": "https://github.com/c3er/electron-playwright-issue",
+  "author": "Christian Dreier",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "30.0.3",
+    "mocha": "10.4.0",
+    "playwright": "1.43.1",
+    "prettier": "3.2.5"
+  }
+}
